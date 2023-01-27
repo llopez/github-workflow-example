@@ -1,6 +1,6 @@
 {
   "name": "@llopez/github-workflow-example",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testing GitHub Workflows",
   "main": "index.js",
   "author": "Luis Lopez",
