@@ -18,6 +18,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
           scope: '@llopez'
       - run: yarn --frozen-lockfile
-      - run: yarn publish --access public
+      - run: yarn publish --verbose
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
