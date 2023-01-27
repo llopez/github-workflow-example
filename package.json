@@ -1,0 +1,11 @@
+{
+  "name": "@llopez/github-workflow-example",
+  "version": "1.0.0",
+  "description": "Testing GitHub Workflows",
+  "main": "index.js",
+  "author": "Luis Lopez",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
