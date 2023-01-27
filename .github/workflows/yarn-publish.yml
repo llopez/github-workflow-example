@@ -17,7 +17,7 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
           scope: '@llopez'
-      - run: npm ci
-      - run: npm publish
+      - run: yarn --frozen-lockfile
+      - run: yarn publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
