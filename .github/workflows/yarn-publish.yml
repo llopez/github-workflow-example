@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
-          scope: '@llopez'
+          scope: '@luigibyte'
       - run: yarn --frozen-lockfile
       - run: yarn publish --verbose
         env:
